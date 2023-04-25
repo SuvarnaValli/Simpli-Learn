@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+     <hibernate-mapping package="com.admin.demo">
+    	<class name="flight" table="flight">
+    		<id name="id" >
+    			<generator class="identity"></generator>
+    		</id>
+        <property name="price" type="double"></property>
+    	<property name="source" type="string"></property>
+      	<property name="destination" type="string"></property>
+    	<property name="airline" type="string"></property>
+    	<property name="availabledays" type="string"></property>
+    	
+    	
+      <!--  	<list name="colors" cascade="all">
+      	<key column="product_id"></key>
+      	<list-index column="idx"></list-index>
+      	<one-to-many class="com.simplilearn.demo.Color"/>
+      	</list>
+      	<set name="os" cascade="all">
+    	<key column="product_id"></key>
+    	<one-to-many class="com.simplilearn.demo.OS"/>
+    	</set>-->
+      
+    
+    	</class>
+    </hibernate-mapping>
