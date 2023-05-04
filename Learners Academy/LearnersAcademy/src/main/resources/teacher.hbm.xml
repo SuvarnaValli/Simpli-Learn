@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+     <hibernate-mapping package="com.learner.demo">
+      <class name="teacher" table="teacher_data">
+      <id name="id" column="id">
+      <generator class= "identity"></generator>
+      </id>
+      <property name="tname" type="string" column="teacher_name"></property>
+      <property name="email" type="string" column="email"></property>
+      <property name="password" type="string" column="password"></property>
+      <property name="gender" type="string" column="gender"></property>
+      <property name="dob" type="string" column="d_of_birth"></property>
+      <property name="mobile" type="string" column="mobile"></property>
+      <property name="address" type="string" column="address"></property>
+      <property name="Subject" type="string" column="Subject"></property>
+      
+      
+    <!-- 	<set name="classes_table" cascade="all">
+    	<key column="teacher_id"></key>
+    	<one-to-many class="com.simplilearn.demo.classes_table"/>
+    	</set>
+      -->
+    
+      </class>
+      </hibernate-mapping>

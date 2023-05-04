@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+     <hibernate-mapping package="com.learner.demo">
+      <class name="classes_table" table="Classes_data">
+      <id name="id" column="id">
+      <generator class= "identity"></generator>
+      </id>
+      
+      <property name="std" type="string" column="standard"></property>
+      <property name="time" type="string" column="time"></property>
+     <!--   <property name="tname" type="string" column="tname"></property>
+      <property name="subname" type="string" column="subname"></property>
+      <property name="subjectcode" type="string" column="subjectcode"></property>-->
+      
+           <many-to-one name="teacher" cascade="all"  class="com.learner.demo.teacher"></many-to-one> 
+            <many-to-one name="Subject" cascade="all" class="com.learner.demo.Subject"></many-to-one>
+           
+      	
+      </class>
+      </hibernate-mapping>

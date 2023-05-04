@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+     <hibernate-mapping package="com.learner.demo">
+      <class name="Student" table="student_data">
+      <id name="id" column="id">
+      <generator class= "identity"></generator>
+      </id>
+      <property name="name" type="string" column="student_name"></property>
+      <property name="fname" type="string" column="first_name"></property>
+      <property name="lname" type="string" column="last_name"></property>
+      <property name="gender" type="string" column="gender"></property>
+      <property name="dob" type="string" column="d_of_birth"></property>
+      <property name="doj" type="string" column="d_of_join"></property>
+      <property name="address" type="string" column="address"></property>
+      <property name="standard" type="string" column="standard"></property>
+      <property name="fee" type="double" column="fee"></property>
+      </class>
+      </hibernate-mapping>

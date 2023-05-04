@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+     <hibernate-mapping package="com.learner.demo">
+      <class name="Subject" table="Subject_data">
+      <id name="id" column="id">
+      <generator class= "identity"></generator>
+      </id>
+      <property name="subname" type="string" column="Subject_name"></property>
+      <property name="subjectcode" type="string" column="subjectcode"></property>
+      <property name="std" type="string" column="standard"></property>
+      
+      
+    	<!--  <set name="classes_table" cascade="all">
+    	<key column="Subject_id"></key>
+    	<one-to-many class="com.simplilearn.demo.classes_table"/>
+    	</set>
+      -->
+      </class>
+      </hibernate-mapping>
