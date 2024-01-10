@@ -1,0 +1,163 @@
+{
+  "seller": [
+    {
+      "name": "sam sidhu",
+      "email": "sam@seller.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "peter",
+      "password": "abc@123",
+      "email": "peter@test.com",
+      "id": 3
+    },
+    {
+      "name": "bruce",
+      "password": "abc@123",
+      "email": "bruce@test.com",
+      "id": 4
+    },
+    {
+      "name": "anil",
+      "password": "abc123",
+      "email": "anil@test.com",
+      "id": 5
+    },
+    {
+      "name": "alena",
+      "password": "abc123",
+      "email": "alena@test.com",
+      "id": 6
+    },
+    {
+      "name": "sam",
+      "password": "abc@123",
+      "email": "sam@test.com",
+      "id": 7
+    },
+    {
+      "name": "bhasker",
+      "password": "abc@123",
+      "email": "bhasker@test.com",
+      "id": 8
+    },
+    {
+      "name": "Valli",
+      "password": "val@1",
+      "email": "valli@gmail.com",
+      "id": 9
+    }
+  ],
+  "products": [
+    {
+      "name": "Idly",
+      "price": "20",
+      "category": "Breakfast",
+      "description": "Savory steamed Rice cake",
+      "image": "https://www.thulamfoods.com/product-images/Plain+Idly.png/956287000029846012/600x600",
+      "id": 1
+    },
+    {
+      "name": "Vada",
+      "price": "30",
+      "category": "Breakfast",
+      "description": "Savory Fried Patties",
+      "image": "https://www.gitsfood.com/wp-content/uploads/2021/04/04-19.jpg",
+      "id": 2
+    },
+    {
+      "name": "Dosa",
+      "price": "35",
+      "category": "Breakfast",
+      "description": "Savory crepe",
+      "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/10/9/DV3016_masala-dosa_s4x3.jpg.rend.hgtvcom.616.462.suffix/1570635680579.jpeg",
+      "id": 3
+    },
+    {
+      "name": "South Indian Meals",
+      "price": "150",
+      "category": "Lunch",
+      "description": "Curries, Rice, Ghee, Papad, Curd",
+      "image": "https://bangalore247.in/wp-content/uploads/2021/02/South-Indian-cuisine-In-Bangalore.jpg",
+      "id": 4
+    },
+    {
+      "name": "Veg Manchurian",
+      "price": "100",
+      "category": "Starter",
+      "description": "Indian Chinese dish made by roughly chopping and deep-frying Veggies",
+      "image": "https://vegecravings.com/wp-content/uploads/2017/03/veg-manchurian-dry-recipe-step-by-step-instructions-10.jpg",
+      "id": 5
+    },
+    {
+      "name": " Chocolate Ice cream ",
+      "price": "150",
+      "category": "Dessert",
+      "description": "Chocolate Ice cream topped with chocolate syrup",
+      "image": "https://www.yummyfoodrecipes.in/resources/picture/org/Tasty-Chocolate-Ice-Cream.jpg",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "name": "anil",
+      "email": "anil@user.com",
+      "password": "abc123",
+      "id": 1
+    },
+    {
+      "name": "peter",
+      "email": "peter@user.com",
+      "password": "abc123",
+      "id": 2
+    },
+    {
+      "name": "hyden",
+      "email": "hyden@user.com",
+      "password": "abc123",
+      "id": 3
+    },
+    {
+      "name": "tony",
+      "email": "tony@user.com",
+      "password": "abc123",
+      "id": 4
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "email": "anil@user.com",
+      "address": "noida sector x",
+      "contact": "9999",
+      "totalPrice": 104750,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "email": "anil@test.com",
+      "address": "noida sector x",
+      "contact": "8877",
+      "totalPrice": 6100,
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "email": "anil@user.com",
+      "address": "Vijayawada",
+      "contact": "957546353",
+      "totalPrice": 130,
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "email": "Valli",
+      "address": "Hyderabad",
+      "contact": "7808798790",
+      "totalPrice": 250,
+      "userId": 1,
+      "id": 5
+    }
+  ]
+}
