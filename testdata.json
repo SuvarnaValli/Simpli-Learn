@@ -1,0 +1,26 @@
+[{
+        "question": "Which of the following is NOT a fruit?",
+        "options": ["Rhubarb", "Tomatoes", "Avocados", "Potatos"],
+        "answer": 0
+    },
+    {
+        "question": "Where was the first example of paper money used?",
+        "options": ["Turkey", "China", "Greece", "India"],
+        "answer": 1
+    },
+    {
+        "question": "Our human body has?",
+        "options": ["206 bones", "210 bones", "306 bones", "706 bones"],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following languages has the longest alphabet?",
+        "options": ["Greek", "Arabic","Russian"],
+        "answer": 2
+    },
+    {
+        "question": "Which horoscope sign is a fish?",
+        "options": ["Aquarius", "Libra", "Cancer", "Pisces"],
+        "answer": 3
+    }
+]
